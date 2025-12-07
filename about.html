@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Gagana Nayak</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="brand" href="index.html">
+        <div class="logo">GN</div>
+        <div>
+          <div class="site-title">Gagana Nayak</div>
+          <div class="small">Full-Stack Web Developer</div>
+        </div>
+      </a>
+      <button class="mobile-toggle">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-left">
+          <div class="h1">About me</div>
+          <p class="lead">A short background about my career, interests and goals.</p>
+        </div>
+        <div class="hero-right">
+          <div class="card center">
+            <img src="assets/images/profile.jpg" alt="profile" class="profile-photo">
+          </div>
+        </div>
+      </section>
+
+      <div class="grid">
+        <section class="card fade-in">
+          <h3>Background</h3>
+          <p class="small" style="margin-top:8px;">I am a Computer Science student studying under VTU. I enjoy designing and implementing web apps focusing on performance and usability. I’m interested in full-stack development and wish to work at companies that value product quality.</p>
+
+          <div class="section">
+            <h3>Education</h3>
+            <div class="resume-item">
+              <div class="title">B.E. Computer Science — VTU</div>
+              <div class="meta">5th Semester (2022 scheme)</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Interests</h3>
+            <ul>
+              <li>Web performance & accessibility</li>
+              <li>Computer graphics & visual systems</li>
+              <li>Open-source collaboration</li>
+            </ul>
+          </div>
+        </section>
+
+        <aside class="card fade-in">
+          <h3>Quick facts</h3>
+          <div style="margin-top:10px;">
+            <div class="kv">👨‍💻 <strong>Role:</strong> Student / Developer</div>
+            <div class="kv">📍 <strong>Location:</strong> Bangalore, India</div>
+            <div class="kv">📫 <strong>Email:</strong> you@example.com</div>
+          </div>
+
+          <div class="section">
+            <h3>Download</h3>
+            <a class="btn" href="resume.html">Download Resume</a>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="footer">
+        © <span id="year2"></span> Gagana Nayak
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year2').innerText = new Date().getFullYear();</script>
+</body>
+</html>

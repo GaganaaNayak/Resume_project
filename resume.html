@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Gagana Nayak</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="brand" href="index.html">
+        <div class="logo">GN</div>
+        <div>
+          <div class="site-title">Gagana Nayak</div>
+          <div class="small">Full-Stack Web Developer</div>
+        </div>
+      </a>
+      <button class="mobile-toggle">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="grid">
+        <aside class="card fade-in">
+          <img src="assets/images/profile.jpg" alt="profile" class="profile-photo" style="margin-bottom:12px;">
+          <div style="font-weight:700; margin-bottom:6px;">Gagana Nayak</div>
+          <div class="small">Full-Stack Developer</div>
+
+          <div class="section">
+            <h3>Contact</h3>
+            <div class="kv">📍 Bangalore, India</div>
+            <div class="kv">📞 +91 12345 67890</div>
+            <div class="kv">✉️ you@example.com</div>
+            <div class="kv">🔗 <a href="#" style="color:inherit">github.com/yourusername</a></div>
+          </div>
+
+          <div class="section">
+            <h3>Skills</h3>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span><span class="tag">React</span>
+            </div>
+          </div>
+        </aside>
+
+        <section class="card fade-in">
+          <h3>Professional Summary</h3>
+          <p class="small">Ambitious developer experienced in building responsive websites. Seeking internship/opportunity to build real-world apps.</p>
+
+          <div class="section">
+            <h3>Experience</h3>
+            <div class="resume-item">
+              <div class="title">Intern / Frontend Developer</div>
+              <div class="meta">Company — Jan 2024 - Present</div>
+              <div class="small">Worked on UI components, optimized bundle size, improved accessibility.</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Education</h3>
+            <div class="resume-item">
+              <div class="title">B.E. — Computer Science</div>
+              <div class="meta">Visvesvaraya Technological University (VTU) — 2022 scheme</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Certifications</h3>
+            <ul>
+              <li>Intro to Web Dev — Course</li>
+              <li>JavaScript Essentials — Course</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <footer class="footer">
+        © <span id="year4"></span> Gagana Nayak
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year4').innerText = new Date().getFullYear();</script>
+</body>
+</html>

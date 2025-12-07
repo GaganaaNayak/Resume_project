@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Gagana Nayak</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="brand" href="index.html">
+        <div class="logo">GN</div>
+        <div>
+          <div class="site-title">Gagana Nayak</div>
+          <div class="small">Full-Stack Web Developer</div>
+        </div>
+      </a>
+      <button class="mobile-toggle">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card fade-in">
+        <h3>Projects</h3>
+        <p class="small">A selection of projects.</p>
+
+        <div class="projects" style="margin-top:12px;">
+          <div class="project-card">
+            <img src="assets/images/project1.jpg" alt="project1" style="width:100%; height:420px; object-fit:cover; border-radius:8px;">
+            <div style="padding-top:8px; font-weight:700;">Weather App</div>
+            <div class="small meta">A simple web app that fetches and displays real-time weather data (temperature, humidity, conditions) for any city using HTML, CSS, and JavaScript (OpenWeather API).</div>
+            
+          </div>
+
+          <div class="project-card">
+            <img src="assets/images/project2.jpg" alt="project2" style="width:100%; height:420px; object-fit:cover; border-radius:8px;">
+            <div style="padding-top:8px; font-weight:700;">Car Rental System</div>
+            <div class="small meta">A user-friendly car rental platform that allows customers to browse available cars, view pricing and features, filter by category, and place booking requests. Built with a responsive frontend and intuitive navigation to simulate a real-world rental experience.</div>
+          </div>
+
+      </section>
+
+      <footer class="footer">
+        © <span id="year3"></span> Gagana Nayak
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year3').innerText = new Date().getFullYear();</script>
+</body>
+</html>
