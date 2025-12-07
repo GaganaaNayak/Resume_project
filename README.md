@@ -5,19 +5,14 @@ Includes pages for Home, About, Projects, and Resume, with a clean UI and respon
 
 # Project Structure
 
-RESUME/
-│── index.html
-│── about.html
-│── projects.html
-│── resume.html
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── images/
-│       └── profile.jpg, project screenshots, etc.
+Resume/index.html
+Resume/about.html
+Resume/projects.html
+Resume/resume.html
+Resume/assets/css/style.css
+Resume/assets/js.main.js
+Resume/assets/images/(profile.jpg, project screenshots, etc.)
+
 
 # 🚀 How to Run Locally
 
